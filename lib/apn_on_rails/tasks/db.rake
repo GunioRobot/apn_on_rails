@@ -1,5 +1,5 @@
 namespace :apn do
-  
+
   namespace :db do
 
     task :migrate do
@@ -13,7 +13,7 @@ Then just run the migrations like you would normally:
 $ rake db:migrate
       }.strip
     end
-    
+
   end # db
-  
+
 end # apn
